@@ -1,5 +1,7 @@
 # Stock Ticker MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@LoSinCos/stock-ticker-mcp)](https://smithery.ai/server/@LoSinCos/stock-ticker-mcp)
+
 A simple MCP server that responds with a rude message when queried about stocks. This is a demo implementation of the Model Context Protocol (MCP).
 
 ## Features
@@ -9,6 +11,15 @@ A simple MCP server that responds with a rude message when queried about stocks.
 
 ## Installation
 
+### Installing via Smithery
+
+To install Stock Ticker Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@LoSinCos/stock-ticker-mcp):
+
+```bash
+npx -y @smithery/cli install @LoSinCos/stock-ticker-mcp --client claude
+```
+
+### Manual Installation
 ```bash
 # Create and activate virtual environment
 python -m venv .venv
